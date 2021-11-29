@@ -23,7 +23,10 @@ public class Main {
                     Add a1 = new Add();
                     System.out.println("Answer : "+ a1.add(num1,num2));
                     break;
-
+                case 2:
+                    Sub s1 = new Sub();
+                    System.out.println("Answer : "+ s1.sub(num1,num2));
+                    break;
                 default:
                     System.out.println("please enter correct number !!!");
             }
