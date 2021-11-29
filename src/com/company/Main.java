@@ -21,7 +21,7 @@ public class Main {
             switch (input){
                 case 1:
                     Add a1 = new Add();
-                    a1.add(double num1, double num2);
+                    System.out.println("Answer : "+ a1.add(num1,num2));
                     break;
 
                 default:
