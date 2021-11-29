@@ -27,12 +27,13 @@ public class Main {
                     Sub s1 = new Sub();
                     System.out.println("Answer : "+ s1.sub(num1,num2));
                     break;
+                case 3:
+                    Mul m1 = new Mul();
+                    System.out.println("Answer : "+ m1.multiply(num1,num2));
                 default:
                     System.out.println("please enter correct number !!!");
             }
         }
-
-
 
     }
 }
