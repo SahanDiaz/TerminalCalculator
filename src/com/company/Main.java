@@ -44,8 +44,6 @@ public class Main {
             else {
                 System.out.println("\nplease enter correct number !!!\n");
             }
-
         }
-
     }
 }
